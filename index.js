@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const busboy = require('connect-busboy');
 const env = process.env;
 const host = env.BASE_URL || 'http://127.0.0.1';
-const port = env.PORT || 443;
+const port = env.PORT || 8080;
 
 const app = express();
 
